@@ -9,6 +9,7 @@ from streamlit_lottie import st_lottie
 import requests
 import matplotlib.font_manager as fm 
 
+
 # Load Lottie animation function
 def load_lottieurl(url):
     try:
@@ -164,7 +165,9 @@ else:
         # Emoji Analysis
         st.subheader("😄 Emoji Analysis")
         emoji_df = functions.emoji_analysis(selected_user, df)
-        emoji_font = fm.FontProperties(fname="C:/Windows/Fonts/seguiemj.ttf")
+        #emoji_font = fm.FontProperties(fname="C:/Windows/Fonts/seguiemj.ttf")
+        emoji_font = fm.FontProperties(family="Segoe UI Emoji")
+        #plt.rcParams['font.family'] = emoji_font.get_name()
         plt.rcParams['font.family'] = emoji_font.get_name()
         if not emoji_df.empty:
             col1, col2 = st.columns([2, 1])
