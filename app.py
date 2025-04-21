@@ -130,7 +130,7 @@ else:
             fig.patch.set_facecolor('#0f2027')
             ax.set_facecolor('#0f2027')
             #sns.barplot(x=active_day_df['day'], y=active_day_df['msg'], ax=ax, palette="autumn")
-            sns.barplot(x=active_month_df['month'], y=active_month_df['msg'], ax=ax, hue=active_month_df['month'], palette="cool", legend=False)
+            sns.barplot(x=active_day_df['day'], y=active_day_df['msg'], ax=ax, hue=active_day_df['day'], palette="cool", legend=False)
             ax.set_title('Day-wise Activity', color='white')
             ax.tick_params(colors='white')
             st.pyplot(fig)
@@ -166,6 +166,7 @@ else:
         st.subheader("😄 Emoji Analysis")
         emoji_df = functions.emoji_analysis(selected_user, df)
         emoji_font = fm.FontProperties(fname="C:/Windows/Fonts/seguiemj.ttf")
+        #for streamlit deployment
         #emoji_font = fm.FontProperties(family="Segoe UI Emoji")
         #plt.rcParams['font.family'] = emoji_font.get_name()
         plt.rcParams['font.family'] = emoji_font.get_name()
