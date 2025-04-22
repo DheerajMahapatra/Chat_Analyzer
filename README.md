@@ -155,5 +155,5 @@ pip install -r requirements.txt
 ## 📧 Contact
 
 Built with ❤️ by **[DHEERAJ MAHAPATRA]**  
-📫 Email: dheerajmahapatra2029@example.com  
+📫 Email: dheerajmahapatra2029@gmail.com  
 🔗 GitHub: [@DheerajMahapatra](https://github.com/DheerajMahapatra)
