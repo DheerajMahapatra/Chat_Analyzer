@@ -1,5 +1,3 @@
-# Chat_Analyzer
-WhatsApp_Chat_Analyzer
 # 💬 WhatsApp Chat Analyzer — Streamlit Project 📊
 
 Welcome to the **WhatsApp Chat Analyzer** — a modern, intelligent, and interactive chat analytics app built with Python and Streamlit. Designed to uncover hidden insights, this project transforms your exported WhatsApp messages into stunning visuals and statistics — perfect for data lovers, social groups, and curious minds.
