@@ -7,10 +7,10 @@ Welcome to the **WhatsApp Chat Analyzer** — a modern, intelligent, and interac
 ---
 > ✨ *Empowering minds. One chat at a time.*
 
-![Repo Size](https://img.shields.io/github/repo-size/yourusername/whatsapp-chat-analyzer)
-![Issues](https://img.shields.io/github/issues/yourusername/whatsapp-chat-analyzer)
-![Forks](https://img.shields.io/github/forks/yourusername/whatsapp-chat-analyzer?style=social)
-![Stars](https://img.shields.io/github/stars/yourusername/whatsapp-chat-analyzer?style=social)
+![Repo Size](https://img.shields.io/github/repo-size/DheerajMahapatra/Chat_Analyzer)
+![Issues](https://img.shields.io/github/issues/DheerajMahapatra/Chat_Analyzer)
+![Forks](https://img.shields.io/github/forks/DheerajMahapatra/Chat_Analyzer?style=social)
+![Stars](https://img.shields.io/github/stars/DheerajMahapatra/Chat_Analyzer?style=social)
 
 ---
 
@@ -37,9 +37,17 @@ Welcome to the **WhatsApp Chat Analyzer** — a modern, intelligent, and interac
 
 ## 🖼️ UI Preview
 
-| Upload Page | Timeline View | WordCloud | Emoji Stats |
-|-------------|---------------|-----------|-------------|
-| ![](https://yourdomain.com/previews/upload.jpg) | ![](https://yourdomain.com/previews/timeline.jpg) | ![](https://yourdomain.com/previews/wordcloud.jpg) | ![](https://yourdomain.com/previews/emoji.jpg) |
+| Upload Page | Analyze View | Download Button | 
+|-------------|--------------|-----------------|
+| ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Index.jpg) | ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Analyze.jpg) |  ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Download_Button.jpg) |
+
+| Monthly_Timeline | Daily_Timeline | Activity_Map |
+|------------------|----------------|--------------|
+| ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Monthly_Timeline.jpg) | ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Daily_Timeline.jpg) |  ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Activity_Map.jpg) |
+
+| Most_Active_User | WordCloud | Emoji Stats |
+|------------------|-----------|-------------|
+| ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Most_Active_User.jpg) | ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Most_Common_Words.jpg) |  ![](https://raw.githubusercontent.com/DheerajMahapatra/Chat_Analyzer/main/UI/Emoji_Analyzer.jpg) |
 
 ---
 
@@ -67,3 +75,64 @@ whatsapp_chat_analyzer/
 ├── assets/            # Lottie animations, logos, etc.
 └── README.md          # Project documentation
 ```
+
+## 🧠 How It Works
+
+1. 📲 **Export your chat via WhatsApp:**  
+   `Chat > More > Export Chat > Without Media`
+
+2. 📤 **Upload the `.txt` file** in the app
+
+3. 📊 **Explore dashboards and visualizations** powered by Python magic!
+
+4. 📁 **Export your results** to CSV if needed
+
+---
+
+## ▶️ Run the App Locally
+
+```bash
+git clone https://github.com/yourusername/whatsapp-chat-analyzer.git
+cd whatsapp-chat-analyzer
+pip install -r requirements.txt
+streamlit run app.py
+```
+## 📦 Dependencies
+
+- **The following Python libraries are required to run this app:**
+- streamlit==1.44.1
+- matplotlib
+- seaborn
+- URLExtract
+- wordcloud
+- pandas
+- requests
+- streamlit-lottie
+- emoji
+---
+
+### ✅ Install with:
+
+```bash
+pip install -r requirements.txt
+```
+
+## 💬 Sample Chat Export Format
+
+- ✅ Works with **English** and **multi-language** WhatsApp chats  
+- 📄 Must follow WhatsApp’s **default export format** (`.txt`)  
+- ⚠️ Ensure **"Without Media"** is selected during export  
+
+---
+
+## 📅 Future Enhancements
+
+- 📌 Group vs Individual Chat Comparison  
+- 🌐 Multi-language support (Hindi, Spanish, etc.)  
+- 📲 Telegram & Messenger support  
+- 📊 AI-powered sentiment analysis  
+- 📝 Chat summarization with LLMs (ChatGPT/Claude)  
+- 📤 Shareable public reports  
+
+---
+
