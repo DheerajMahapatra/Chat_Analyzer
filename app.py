@@ -165,9 +165,9 @@ else:
         # Emoji Analysis
         st.subheader("😄 Emoji Analysis")
         emoji_df = functions.emoji_analysis(selected_user, df)
-        emoji_font = fm.FontProperties(fname="C:/Windows/Fonts/seguiemj.ttf")
+        #emoji_font = fm.FontProperties(fname="C:/Windows/Fonts/seguiemj.ttf")
         #for streamlit deployment
-        #emoji_font = fm.FontProperties(family="Segoe UI Emoji")
+        emoji_font = fm.FontProperties(family="Segoe UI Emoji")
         #plt.rcParams['font.family'] = emoji_font.get_name()
         plt.rcParams['font.family'] = emoji_font.get_name()
         if not emoji_df.empty:
