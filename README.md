@@ -13,7 +13,14 @@ Welcome to the **WhatsApp Chat Analyzer** — a modern, intelligent, and interac
 ![Stars](https://img.shields.io/github/stars/DheerajMahapatra/Chat_Analyzer?style=social)
 
 ---
+## 🚀 Live Demo
 
+Try it out here:  
+🌐 **[WhatsApp Chat Analyzer — Live App](https://dheeraj-whatsapp-chat-analyzer.streamlit.app)**
+
+> ⚡ Powered by Streamlit Cloud for seamless deployment
+
+---
 ## 📌 Project Overview
 
 **WhatsApp Chat Analyzer** is a one-stop solution to explore your chat data through interactive graphs, emoji breakdowns, activity timelines, word clouds, and more. With built-in preprocessing, elegant UI, and beautiful animations, this app ensures a smooth and engaging user experience.
@@ -136,3 +143,17 @@ pip install -r requirements.txt
 
 ---
 
+## 🙌 Acknowledgments
+
+- [Streamlit](https://streamlit.io/)
+- [Matplotlib](https://matplotlib.org/)
+- [LottieFiles](https://lottiefiles.com/)
+- WhatsApp for the chat export format
+
+---
+
+## 📧 Contact
+
+Built with ❤️ by **[DHEERAJ MAHAPATRA]**  
+📫 Email: dheerajmahapatra2029@example.com  
+🔗 GitHub: [@DheerajMahapatra](https://github.com/DheerajMahapatra)
